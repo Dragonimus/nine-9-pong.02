@@ -27,12 +27,12 @@ def setup():
 
     
     global background_music
-    background_music = sound.load_sound("intensamente.mp3")
+    background_music = sound.load_sound("miau.mp3")
     background_music.play(-1)  
 
     
     global bounce_sound
-    bounce_sound = sound.load_sound("intensamente.mp3")
+    bounce_sound = sound.load_sound("miau.mp3")
 
 def reset_game():
     global ball_x, ball_y, ball_dx, ball_dy, paddle1_y, paddle2_y
